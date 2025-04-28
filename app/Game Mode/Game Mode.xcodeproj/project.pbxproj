@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		563E24AF2DC0009200606E47 /* cheatsheet.md in Resources */ = {isa = PBXBuildFile; fileRef = 563E24AE2DC0009100606E47 /* cheatsheet.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		563E24832DBFED3F00606E47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,15 @@
 		563E246B2DBFED3D00606E47 /* Game Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		563E24822DBFED3F00606E47 /* Game ModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game ModeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		563E248C2DBFED3F00606E47 /* Game ModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game ModeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563E24A62DBFF93100606E47 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		563E24A72DBFF94000606E47 /* SkillsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewModel.swift; sourceTree = "<group>"; };
+		563E24A82DBFF94D00606E47 /* SpiderWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderWebView.swift; sourceTree = "<group>"; };
+		563E24A92DBFF95700606E47 /* SkillNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillNodeView.swift; sourceTree = "<group>"; };
+		563E24AA2DBFFFCA00606E47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		563E24AB2DBFFFDF00606E47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		563E24AC2DC0004900606E47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		563E24AD2DC0006800606E47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		563E24AE2DC0009100606E47 /* cheatsheet.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = cheatsheet.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +101,11 @@
 		563E24622DBFED3D00606E47 = {
 			isa = PBXGroup;
 			children = (
+				563E24AE2DC0009100606E47 /* cheatsheet.md */,
+				563E24A52DBFF91800606E47 /* Components */,
+				563E24A42DBFF90D00606E47 /* Views */,
+				563E24A32DBFF8FE00606E47 /* ViewModels */,
+				563E24A22DBFF8F500606E47 /* Models */,
 				563E246D2DBFED3D00606E47 /* Game Mode */,
 				563E24852DBFED3F00606E47 /* Game ModeTests */,
 				563E248F2DBFED3F00606E47 /* Game ModeUITests */,
@@ -103,6 +121,42 @@
 				563E248C2DBFED3F00606E47 /* Game ModeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		563E24A22DBFF8F500606E47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				563E24AA2DBFFFCA00606E47 /* README.md */,
+				563E24A62DBFF93100606E47 /* Skill.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		563E24A32DBFF8FE00606E47 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				563E24AB2DBFFFDF00606E47 /* README.md */,
+				563E24A72DBFF94000606E47 /* SkillsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		563E24A42DBFF90D00606E47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				563E24AD2DC0006800606E47 /* README.md */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		563E24A52DBFF91800606E47 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				563E24AC2DC0004900606E47 /* README.md */,
+				563E24A92DBFF95700606E47 /* SkillNodeView.swift */,
+				563E24A82DBFF94D00606E47 /* SpiderWebView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563E24AF2DC0009200606E47 /* cheatsheet.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
